@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Chainlit
+.chainlit/
+
+.DS_Store
