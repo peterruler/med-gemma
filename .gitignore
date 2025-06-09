@@ -7,3 +7,4 @@ __pycache__/
 .chainlit/
 
 .DS_Store
+.files/
