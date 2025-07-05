@@ -2,7 +2,7 @@
 
 # Med Gemma - Medical Multimodal Chatbot (Radiology)
 
-Med Gemma is a medical chatbot based on the `alibayram/medgemma:latest` language model, accessible via a Chainlit interface. Note: The used model is text-to-text only. On M-Series Mac or eventually PC with GPU Accelerator, I recommend to install [LM Studio](https://lmstudio.ai) and choose a multimodal model in GGUF-Format or mlx 4 bit vision for Mac or similar to recognize radiology images. Medgemma from google is the first multimodal model with its minimalistic size of 4B parameters. It might be only capable of performing easy radiology tasks I guess. Check [ollama medgemma vision](https://ollama.com/search?q=medgemma). Because in the meanwhile new vision models of medgemma are available on ollama model search. You might want to use one of those instead, although at the time, ollama and chainlit don't seem to support processing vision / images.
+Med Gemma is a medical chatbot based on the `edwardlo12/medgemma-4b-it-Q4_K_M` language model, accessible via a Chainlit Chat interface. Note: The used model is image-text-to-text. On M-Series Mac or eventually PC with GPU or suffisant ram and vram, I recommend to install [LM Studio](https://lmstudio.ai) and download a multimodal model in GGUF-Format or mlx 4 bit vision for Mac for a quicker start. Medgemma from google is the first multimodal model with its minimalistic size of 4B parameters. It might be only capable of performing easy radiology vision tasks I guess. Check [ollama medgemma vision](https://ollama.com/search?q=medgemma). Because in the meanwhile new vision models of medgemma are available on ollama model search simililar to the one chosen. You might want to use one of those instead.
 
 ## Prerequisites
 
@@ -71,7 +71,7 @@ You can install the project dependencies using either Conda or pip.
 ## Running the Application
 
 1.  **Ensure your (Conda or virtual) environment is activated.**
-2.  **Ensure the Ollama service is running and the `alibayram/medgemma:latest` model is available.**
+2.  **Ensure the Ollama service is running and the `edwardlo12/medgemma-4b-it-Q4_K_M` model is available.**
 3.  **Navigate to the project directory in your terminal.**
 4.  **Start the Chainlit application:**
     ```bash

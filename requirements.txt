@@ -37,6 +37,9 @@ python-dateutil==2.9.0.post0
 pytz==2025.2
 PyYAML==6.0.2
 requests==2.32.3
+chainlit
+langchain
+langchain-community
 scikit-learn==1.6.1
 scipy
 seaborn==0.13.2
@@ -56,3 +59,4 @@ WTForms==3.2.1
 zipp==3.21.0
 zstandard==0.23.0
 gunicorn==23.0.0
+ollama
