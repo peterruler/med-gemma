@@ -25,6 +25,7 @@ You can install the project dependencies using either Conda or pip.
 ### Option 1: Using Conda
 
 1.  **Create a new Conda environment (recommended):**
+    - download & install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
     ```bash
     conda create -n medgemma python=3.11  # You can choose a different Python version if desired
     conda activate medgemma
