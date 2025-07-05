@@ -14,7 +14,7 @@ Before you begin, ensure that Ollama is installed and running.
 2.  **Download the MedGemma Model:**
     Open your terminal and run the following command to download the specific model:
     ```bash
-    ollama pull alibayram/medgemma:latest
+    ollama pull edwardlo12/medgemma-4b-it-Q4_K_M
     ```
     Ensure the Ollama service is running in the background before starting the application.
 
