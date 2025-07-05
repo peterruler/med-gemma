@@ -2,7 +2,7 @@
 
 # Med Gemma - Medical Multimodal Chatbot (Radiology)
 
-Med Gemma is a medical chatbot based on the `alibayram/medgemma:latest` language model, accessible via a Chainlit interface. Note: The used model is text-to-text only. On M-Series Mac or eventually PC with GPU Accelerator, I recomend to install [LM Studio](https://lmstudio.ai) and choose a multimodal model in GGUF-Format or mlx 4 bit vision for Mac or similar to recognize radiology images. Medgemma from google is the first multimodal model with its minimalistic size of 4B parameters. It might be only capable of performing easy radiology tasks I guess. Check [ollama medgemma vision](https://ollama.com/search?q=medgemma). Because in the meanwhile new vision models of medgemma are available on ollama model search. You might want to use one of those instead.
+Med Gemma is a medical chatbot based on the `alibayram/medgemma:latest` language model, accessible via a Chainlit interface. Note: The used model is text-to-text only. On M-Series Mac or eventually PC with GPU Accelerator, I recommend to install [LM Studio](https://lmstudio.ai) and choose a multimodal model in GGUF-Format or mlx 4 bit vision for Mac or similar to recognize radiology images. Medgemma from google is the first multimodal model with its minimalistic size of 4B parameters. It might be only capable of performing easy radiology tasks I guess. Check [ollama medgemma vision](https://ollama.com/search?q=medgemma). Because in the meanwhile new vision models of medgemma are available on ollama model search. You might want to use one of those instead.
 
 ## Prerequisites
 
